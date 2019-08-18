@@ -8,8 +8,8 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.map {|elements| "#{elements.capitalize}!"}
 end
 
-def long_planeteer_calls(calls)
-  long_planeteer_calls.any?{}
+def long_planeteer_calls(calls_short)
+  long_planeteer_calls.any? {|calls| calls.length }
   
 end
 
