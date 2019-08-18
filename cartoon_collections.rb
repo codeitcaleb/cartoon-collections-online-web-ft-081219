@@ -21,5 +21,5 @@ def find_the_cheese(ingredients)
   # ingredients.include  
  binding.pry
  end
-   {|cheese| cheese ? puts "#{cheese}" }
+  # {|cheese| cheese ? puts "#{cheese}" }
 end
