@@ -13,6 +13,6 @@ def long_planeteer_calls(calls_short)
   
 end
 
-def find_the_cheese(snacks)
-  snacks.map.include? {|cheese|  }
+def find_the_cheese(ingredients)
+  ingredients.map.include?{|cheese|cheese.include?("cheddar", "gouda", )
 end
