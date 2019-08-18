@@ -19,7 +19,7 @@ def find_the_cheese(ingredients)
   
   ingredients.find do |items| 
   # ingredients.include  
- binding.pry
+ # binding.pry
  end
   # {|cheese| cheese ? puts "#{cheese}" }
 end
