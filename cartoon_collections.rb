@@ -19,7 +19,6 @@ def find_the_cheese(ingredients)
   
   ingredients.find do |items| 
    cheeses.include?(items)
- # binding.pry
+ # Had to find out if any of the ingredients were in the cheeses array.
  end
-  # {|cheese| cheese ? puts "#{cheese}" }
 end
