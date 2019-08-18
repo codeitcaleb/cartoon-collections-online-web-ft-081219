@@ -15,5 +15,6 @@ end
 
 def find_the_cheese(ingredients)
   ingredients.map.include?("cheddar", "gouda", "camembert") 
+  binding.pry
   # {|cheese| cheese ? puts "#{cheese}" : nil}
 end
