@@ -14,7 +14,10 @@ def long_planeteer_calls(calls_short)
 end
 
 def find_the_cheese(ingredients)
-  ingredients.include?("cheddar", "gouda", "camembert")
- 
+  
+  cheeses = ["cheddar", "gouda", "camembert"]
+  
+  ingredients.find do |cheese| 
+ binding.pry
   # {|cheese| cheese ? puts "#{cheese}" : nil}
 end
