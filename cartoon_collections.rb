@@ -18,7 +18,7 @@ def find_the_cheese(ingredients)
   cheeses = ["cheddar", "gouda", "camembert"]
   
   ingredients.find do |items| 
-   ingredients.include?(cheeses)
+   cheeses.include?(items)
  # binding.pry
  end
   # {|cheese| cheese ? puts "#{cheese}" }
