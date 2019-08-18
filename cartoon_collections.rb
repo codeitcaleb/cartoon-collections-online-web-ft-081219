@@ -14,5 +14,5 @@ def long_planeteer_calls(calls_short)
 end
 
 def find_the_cheese(ingredients)
-  if ingredients.map.include?("cheddar")
+  if ingredients.map.include? {|cheese|("cheddar", "gouda")}
 end
